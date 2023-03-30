@@ -83,7 +83,7 @@ $ export that s3 bucket by using below command
        + export KOPS_STATE_STORE=s3://<name>
 $ create a cluster with two nodes
        
-       + kops create cluster --name=<cluster-name> --state=<s3bucket-name> --node-count=2 --yes
+       + kops create cluster --name=<cluster-name> --state=<s3bucket-name> --zones=<availability zones> --node-count=2 --yes
 $ for getting nodes use below command
        
        + kubectl get nodes
