@@ -74,5 +74,21 @@ $ In, this zone create Record with CNAME
 $ copy the "ns-values" and paste those into your domain name 
 $ save it
 $ if you want browse the application with your Domain name please wait 48 hours(I don't exactly)
-
+  
+      
+# CREATE EKS CLUSTER BY USING TERRAFORM
+      
+ $ launch instance
+ $ install terraform 
+ $ create a directory
+ $ create provider.tf file 
+ $ create vpc.tf
+ $ create security.tf
+ $ create eks.tf file
+ $ inititlize the directory
+      + terraform init
+ $ To generates a detailed report that lists all the resources that will be created, modified, or destroyed in order to achieve the desired state by using below command
+      + terraform plan
+ $ creating resources by using below command
+      + terraform apply --auto-approve
 
